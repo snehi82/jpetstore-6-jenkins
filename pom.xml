@@ -48,13 +48,7 @@
     <system>GitHub Actions</system>
     <url>https://github.com/mybatis/jpetstore-6/actions</url>
   </ciManagement>
-  <distributionManagement>
-    <site>
-      <id>gh-pages</id>
-      <name>Mybatis GitHub Pages</name>
-      <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
-    </site>
-  </distributionManagement>
+  
 
   <dependencies>
     
