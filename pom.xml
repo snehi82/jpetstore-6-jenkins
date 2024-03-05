@@ -306,10 +306,7 @@
   </pluginRepositories>
 
   <properties>
-    <cargo.maven.containerId>tomcat${tomcat.major-version}x</cargo.maven.containerId>
-    <cargo.maven.containerUrl>https://archive.apache.org/dist/tomcat/tomcat-${tomcat.major-version}/v${tomcat.version}/bin/apache-tomcat-${tomcat.version}.zip</cargo.maven.containerUrl>
-    <tomcat.major-version />
-    <tomcat.version />
+    
 
     <surefire.version>3.0.0-M7</surefire.version>
     <cargo-maven3-plugin.version>1.10.7</cargo-maven3-plugin.version>
@@ -327,23 +324,8 @@
 
   <profiles>
     <!-- Profiles for Application Server -->
-    <profile>
-      <id>tomcat90</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <properties>
-        <tomcat.major-version>9</tomcat.major-version>
-        <tomcat.version>9.0.70</tomcat.version>
-      </properties>
-    </profile>
-    <profile>
-      <id>tomcat85</id>
-      <properties>
-        <tomcat.major-version>8</tomcat.major-version>
-        <tomcat.version>8.5.84</tomcat.version>
-      </properties>
-    </profile>
+    
+    
     <profile>
       <id>tomee80</id>
       <properties>
